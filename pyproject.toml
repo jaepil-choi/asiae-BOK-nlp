@@ -14,6 +14,7 @@ nltk = "^3.4.5"
 gensim = "^3.1"
 scipy = "^1.4.1"
 numpy = "^1.18.1"
+ekonlpy = {git = "https://github.com/entelecheia/eKoNLPy.git", branch = "master" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
