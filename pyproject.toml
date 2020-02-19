@@ -6,6 +6,8 @@ authors = ["jaepil-choi <chljeffreyz@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+jupyterlab = "^1.2.6"
+mecab_python = {file = "./mecab_python-0.996_ko_0.9.2_msvc-cp37-cp37m-win_amd64.whl"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
