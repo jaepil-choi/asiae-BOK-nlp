@@ -17,6 +17,7 @@ numpy = "^1.18.1"
 ekonlpy = {git = "https://github.com/entelecheia/eKoNLPy.git", branch = "master" }
 olefile = "^0.46"
 pandas = "^1.0.1"
+tika = "^1.23.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
