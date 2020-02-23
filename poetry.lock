@@ -206,6 +206,14 @@ test-win = ["pytest", "pytest-rerunfailures", "mock", "cython", "testfixtures", 
 
 [[package]]
 category = "main"
+description = "dump binary data to hex format and restore from there"
+name = "hexdump"
+optional = false
+python-versions = "*"
+version = "3.3"
+
+[[package]]
+category = "main"
 description = "Internationalized Domain Names in Applications (IDNA)"
 name = "idna"
 optional = false
@@ -1053,7 +1061,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "78303a817da4821973afeef2b51cb809c41a282080ee174ad6d46048ff117072"
+content-hash = "ea7fbf61bf83fb07e6c8ef5aeaf9c47b5e82c824aef11908fd1f455897417f5d"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1145,6 +1153,9 @@ gensim = [
     {file = "gensim-3.8.0-cp37-cp37m-manylinux1_i686.whl", hash = "sha256:ee338476ae4f33e496555bdc6045d6c27a23da6d7340068b6b9056769e897896"},
     {file = "gensim-3.8.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:577d01923b8b23bd970dc05b67da490d446dcdb8d7b275ab664100fe54a3428c"},
     {file = "gensim-3.8.0.tar.gz", hash = "sha256:ec5de7ff2bfa8692fa96a846bb5aae52f267fc322fbbe303c1f042d258af5766"},
+]
+hexdump = [
+    {file = "hexdump-3.3.zip", hash = "sha256:d781a43b0c16ace3f9366aade73e8ad3a7bd5137d58f0b45ab2d3f54876f20db"},
 ]
 idna = [
     {file = "idna-2.8-py2.py3-none-any.whl", hash = "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"},
