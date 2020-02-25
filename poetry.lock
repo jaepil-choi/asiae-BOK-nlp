@@ -1098,7 +1098,7 @@ description = "Apache Tika Python library"
 name = "tika"
 optional = false
 python-versions = "*"
-version = "1.23.1"
+version = "1.23"
 
 [package.dependencies]
 requests = "*"
@@ -1202,7 +1202,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "88d1879860fffcf5179198bb4a48ea6f993b28a1753aa8ae95a7b85ad5d1918b"
+content-hash = "692b4a3d38039617ddb5fce78b8a7a851fd3667a67da563a16b0af7a8e5bab82"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1772,7 +1772,8 @@ testpath = [
     {file = "testpath-0.4.4.tar.gz", hash = "sha256:60e0a3261c149755f4399a1fff7d37523179a70fdc3abdf78de9fc2604aeec7e"},
 ]
 tika = [
-    {file = "tika-1.23.1.tar.gz", hash = "sha256:45069543c0d1943b5574b0aebf85121a0c8a05d82988c3d6e73baa0cfee2a037"},
+    {file = "tika-1.23-py2.7.egg", hash = "sha256:9b361ac715ce764fd75ceb8a0faf9f847129f4e293960313221ff1301ab155b3"},
+    {file = "tika-1.23.tar.gz", hash = "sha256:1894ed9f55caab0b191261b5d9243cf310d4e9c497b894c1cc003ee502aa02e2"},
 ]
 tornado = [
     {file = "tornado-6.0.3-cp35-cp35m-win32.whl", hash = "sha256:c9399267c926a4e7c418baa5cbe91c7d1cf362d505a1ef898fde44a07c9dd8a5"},
