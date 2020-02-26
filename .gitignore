@@ -163,3 +163,5 @@ README.rst
 *.hwp
 *.pdf
 *.txt
+*.csv
+*.pkl
